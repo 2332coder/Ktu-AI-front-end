@@ -15,11 +15,13 @@ body{
     width: 100%;
 }
 
+                                /*style for left partition of Topbar */
+
 .topbar-left{
     flex: 1;
     background-color: blue;
 }
-.hamburger-div{                                                         /* div for opening sidebar */ 
+.hamburger-div{                                                         /* div for hamburger button */ 
     background-color:rgb(255, 255, 255);
     margin:0px;
     align-content: center;
@@ -28,7 +30,7 @@ body{
 
 }
 
-.hamburger-button{                                                         /*button for opening sidebar */ 
+.hamburger-button{                                                         /* hamburger button for opening sidebar */ 
     background-color:rgb(255, 255, 255);
     height:50px;
     margin:0px;
@@ -43,12 +45,14 @@ body{
 }
 
 
+                            /* style for topbar-middle partition which occupies the middle of topbar */
 
-.topbar-middle{
+.topbar-middle{                                             
     flex:7;
 
 }
 
+                            /*style for topbar-right partition and the buttons inside it */
 
 .topbar-right{
     display: flex;
@@ -56,7 +60,7 @@ body{
     justify-content: flex-end;
 }
 
-.topbar-button-div{                                                     /*  top-bar div */
+.topbar-button-div{                                                              /*  top-bar div */
     background-color:rgb(255, 255, 255);
     height:50px;
     margin:0px;
@@ -65,9 +69,7 @@ body{
     border: none;
 }
 
-
-
-.topbar-button{                                                          /*  top-bar buttons */
+.topbar-button{                                                                  /*  top-bar buttons */
     background-color: rgb(255, 255, 255);
     border: none;
     padding:15px;
@@ -83,18 +85,18 @@ body{
     cursor: pointer;
 }
 
-                                /* section for sidebar */
+                                            /* style for sidebar */
         
 .sidebar-div{
     background-color: rgb(23, 22, 22);
     height: 100%;
     width: 250px;
-    transition: margin 0.7s ease ;                 /*sliding animation*/
+    transition: margin 0.7s ease ;                                          /*sliding animation*/
     margin-left: -250px;
     margin-bottom: -50px;
 }          
 
-.upload-button{
+.upload-button{                                                             /*upload button*/
     position: relative;
     margin-top: 80px;
     margin-left: 75px;
