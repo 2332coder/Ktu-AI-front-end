@@ -1,6 +1,13 @@
-const hamburger = document.querySelector("topbar-button");
-const sidebar = document.querySelector(".sidebar-div");
+// Select the hamburger button and sidebar
+const hamburgerButton = document.querySelector('.hamburger-button');
+const sidebar = document.querySelector('.sidebar-div');
 
-hamburger.addEventListener("click", function () {
-  sidebar.style.backgroundColor = "blue"; // Changes background color to blue
+// Add event listener to toggle sidebar
+hamburgerButton.addEventListener('click', () => {
+    if (sidebar.style.marginLeft === '0px') {
+        sidebar.style.marginLeft = '-250px'; // Hide the sidebar
+    } else {
+        sidebar.style.marginLeft = '0px'; // Show the sidebar
+    }
+    
 });

@@ -40,9 +40,8 @@ body{
 
 .hamburger-button:hover{
     cursor: pointer;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
 }
-
 
 .topbar-button-div{                                                     /*  top-bar div */
     background-color:rgb(255, 255, 255);
@@ -74,8 +73,11 @@ body{
                                 /* section for sidebar */
         
 .sidebar-div{
-    background-color: rgb(215, 19, 19);
+    background-color: rgb(23, 22, 22);
     height: 100%;
     width: 250px;
+    transition: margin 0.7s ease ;                 /*sliding animation*/
+    z-index: 4;
+    margin-left: -250px;
+}          
 
-}                                
