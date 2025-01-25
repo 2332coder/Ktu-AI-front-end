@@ -11,11 +11,14 @@ body{
     height: 50px;
     /* margin:-8px; */
     border-bottom:2px solid rgba(36, 36, 36, 0.923);
-    justify-content: space-around;
     position: fixed;
     width: 100%;
 }
 
+.topbar-left{
+    flex: 1;
+    background-color: blue;
+}
 .hamburger-div{                                                         /* div for opening sidebar */ 
     background-color:rgb(255, 255, 255);
     margin:0px;
@@ -37,6 +40,20 @@ body{
 .hamburger-button:hover{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
+}
+
+
+
+.topbar-middle{
+    flex:7;
+
+}
+
+
+.topbar-right{
+    display: flex;
+    flex:6;
+    justify-content: flex-end;
 }
 
 .topbar-button-div{                                                     /*  top-bar div */
