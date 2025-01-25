@@ -1,0 +1,81 @@
+body{
+    height: 1000px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+                /* this section is for top-bar  */
+
+.topbar{                                                                 /*  top-bar  */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 50px;
+    /* margin:-8px; */
+    border-bottom:2px solid rgba(36, 36, 36, 0.923);
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+}
+
+.hamburger-div{                                                         /* div for opening sidebar */ 
+    background-color:rgb(255, 255, 255);
+    margin:0px;
+    align-content: center;
+    border: none;
+    margin-right: 1461px;
+    position:absolute;
+    padding: 0 13px 0 13px;
+
+}
+
+.hamburger-button{                                                         /*button for opening sidebar */ 
+    background-color:rgb(255, 255, 255);
+    height:50px;
+    margin:0px;
+    padding:0px 5px 0rem 5px;
+    align-content: center;
+    border: none;
+}
+
+.hamburger-button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+
+.topbar-button-div{                                                     /*  top-bar div */
+    background-color:rgb(255, 255, 255);
+    height:50px;
+    margin:0px;
+    padding:0px 0rem 0rem 0rem;
+    align-content: center;
+    border: none;
+}
+
+
+
+.topbar-button{                                                          /*  top-bar buttons */
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding:15px;
+    height: 100%;
+    font-size: 15px;
+    transition: font-size 0.4s;
+}
+
+.topbar-button:hover{
+    font-size: 18px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+                                /* section for sidebar */
+        
+.sidebar-div{
+    background-color: rgb(215, 19, 19);
+    height: 100%;
+    width: 250px;
+
+}                                
