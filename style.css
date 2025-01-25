@@ -11,7 +11,7 @@ body{
     height: 50px;
     /* margin:-8px; */
     border-bottom:2px solid rgba(36, 36, 36, 0.923);
-    justify-content: flex-end;
+    justify-content: space-around;
     position: fixed;
     width: 100%;
 }
@@ -21,8 +21,6 @@ body{
     margin:0px;
     align-content: center;
     border: none;
-    margin-right: 1461px;
-    position:absolute;
     padding: 0 13px 0 13px;
 
 }
