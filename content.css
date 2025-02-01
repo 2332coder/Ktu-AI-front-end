@@ -1,11 +1,25 @@
 /* This section is for the content */
 .content-div{
-    height: 100%;
+    height: 120%;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(255, 0, 72);
     position: absolute;
     margin-top:50px ;
     display: flex;
     justify-content: space-evenly;
     
+}
+
+/* syllabus */
+.syllabus-div{
+    background-color: rgb(181, 181, 225);
+    flex:auto;
+    text-align: center;
+}
+
+/* chat-div */
+.chat-div{
+    background-color: pink;
+    flex:auto;
+    text-align: center;
 }
