@@ -3,16 +3,19 @@ body{
     margin: 0px;
 }
 
+
+
+
                 /* this section is for top-bar  */
 
 .topbar{                                                                 /*  top-bar  */
     background-color: rgb(255, 255, 255);
     display: flex;
     height: 50px;
-    /* margin:-8px; */
     border-bottom:2px solid rgba(36, 36, 36, 0.923);
     position: fixed;
     width: 100%;
+    z-index: 100;                  /* so that it stays at top*/
 }
 
                                 /*style for left partition of Topbar */
@@ -85,6 +88,12 @@ body{
     cursor: pointer;
 }
 
+
+
+
+
+
+
                                             /* style for sidebar */
         
 .sidebar-div{
@@ -93,7 +102,9 @@ body{
     width: 250px;
     transition: margin 0.7s ease ;                                          /*sliding animation*/
     margin-left: -250px;
-    margin-bottom: -50px;
+    margin-top: 50px;
+    z-index: 4;
+    position: fixed;
 }          
 
 .upload-button{                                                             /*upload button*/
@@ -110,5 +121,9 @@ body{
     border-radius: 2px;
     transition : height 2s;
 }
+
+
+
+
 
 

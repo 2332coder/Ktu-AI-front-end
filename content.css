@@ -1,0 +1,11 @@
+/* This section is for the content */
+.content-div{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    margin-top:50px ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
